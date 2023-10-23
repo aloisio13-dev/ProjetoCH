@@ -1,0 +1,96 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #89d229; 
+}
+
+
+.container {
+    width: 32%;
+    min-width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff; 
+    border-radius: 10px;
+    box-shadow: 4px 4px 10px 8px rgba(0, 0, 0, 0.2); 
+}
+
+
+.container label {
+    font-size: 1.1em;
+    color: #000000;
+    font-weight: bold;
+    margin-right: 20px;
+    padding: 4px;
+}
+
+
+.container input {
+    width: 40%;
+    padding: 12px;
+    border-bottom: 2px solid rgb(67, 67, 67);
+    outline-color: rgb(0, 255, 55);
+    color: #2ecd63; 
+    border-radius: 5px;
+}
+input#victories{
+    margin-left: 8px;
+}
+
+.container div {
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+#title {
+    color: #0f0f0e; 
+    font-size: 1.4em;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+
+.btn {
+    width: 100%;
+    padding: 10px;
+    margin-top: 12px;
+    cursor: pointer;
+    color: #dadef1; 
+    font-size: 1.2em;
+    font-weight: bold;
+    background-color: #75d1a6; 
+    border: none;
+    border-radius: 5px;
+    transition: 0.3s ease-in-out;
+}
+
+
+.btn:hover {
+    background-color: #6adab8; 
+    color: #fff; 
+}
